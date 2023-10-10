@@ -1,0 +1,91 @@
+/* Resetten van standaardmarges en -paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Instellingen voor de achtergrond en algemene typografie */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Stijl voor de header */
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+
+/* Stijl voor de subtitel */
+h2 {
+    font-size: 24px;
+    margin: 60px;
+    color: #007bff; /* Blauwe kleur */
+    text-align: center;
+}
+
+/* Stijl voor de paragrafen */
+p {
+    font-size: 18px;
+    margin: 60px;
+    
+    text-align: center;
+}
+
+/* Stijl voor de sectie met emoji's */
+p:first-of-type {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Stijl voor links */
+a {
+    color: #007bff; /* Blauwe kleur voor links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Stijl voor de footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Voeg hier eventueel extra stijlen toe voor andere secties op je pagina */
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:10px;
+	border:2px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:15px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c7deb2;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
